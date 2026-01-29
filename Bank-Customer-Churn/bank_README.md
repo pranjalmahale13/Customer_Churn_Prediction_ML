@@ -103,4 +103,5 @@ The objective of this project is to understand and implement a **complete end-to
 
 ## Author
 
-**Shreyash More**
+**Pranjal Mahale**
+
