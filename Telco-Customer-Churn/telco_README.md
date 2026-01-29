@@ -1,48 +1,48 @@
-# Telco Customer Churn Prediction
+# Telco Customer Churn Prediction Using Machine Learning
 
-This project focuses on predicting whether a **telecom customer is likely to leave the service (churn)**.  
-The project was built to practice and understand a **complete machine learning workflow** on a real-world dataset, from data understanding to model evaluation.
+This project aims to predict whether a **telecom customer is likely to churn (stop using the service)** based on customer usage, subscription details, and billing information.  
+The project was created to gain hands-on experience with a **complete machine learning pipeline**, starting from understanding the data and ending with evaluating different models on a real-world dataset.
 
 ---
 
-## Dataset Used
+## Dataset Description
 
 - **Telco Customer Churn Dataset**
-- Contains customer-related information such as:
+- The dataset includes various customer attributes such as:
   - Gender, tenure, and contract type
-  - Internet and phone services
+  - Phone and internet services
   - Monthly charges and total charges
-- Target column: **Churn**  
-  - `Yes` → Customer churned  
-  - `No` → Customer retained  
+- Target feature: **Churn**
+  - `Yes` → Customer has churned  
+  - `No` → Customer is retained  
 
 ---
 
-## Steps Followed in This Project
+## Project Workflow
 
 ### 1. Data Understanding
-- Loaded the dataset and examined:
-  - Number of rows and columns
-  - Data types
-  - Missing and incorrect values
-- Understood the meaning and relevance of each feature
+- Loaded the dataset and performed an initial inspection:
+  - Total number of records and features
+  - Data types of each column
+  - Missing, null, or incorrect values
+- Understood the purpose and importance of each feature
 
 ---
 
 ### 2. Exploratory Data Analysis (EDA)
-- Analyzed how churn varies with:
+- Studied how churn is affected by:
   - Contract type
   - Customer tenure
   - Monthly charges
-- Used basic visualizations to identify trends
-- Observed higher churn among customers with **month-to-month contracts**
+- Used simple visualizations to observe trends and patterns
+- Noted higher churn rates among customers on **month-to-month contracts**
 
 ---
 
 ### 3. Data Preprocessing
-- Converted categorical variables into numerical format
-- Handled data type inconsistencies
-- Removed non-informative columns such as customer identifiers
+- Converted categorical features into numerical values
+- Resolved data type issues where necessary
+- Removed irrelevant columns such as customer ID
 - Split the dataset into **training and testing sets**
 
 ---
@@ -52,24 +52,24 @@ The project was built to practice and understand a **complete machine learning w
   - Logistic Regression
   - Decision Tree
   - Random Forest
-- Compared simple and more advanced models
+- Compared the performance of basic and advanced models
 
 ---
 
 ### 5. Model Evaluation
 - Evaluated models using:
-  - Accuracy
+  - Accuracy score
   - Confusion matrix
   - Classification report
-- Compared performance to identify the better-performing model
+- Compared results to determine the most effective model
 
 ---
 
-## Key Learnings
+## Key Learnings and Insights
 
-- Customer tenure and contract type are strong indicators of churn
-- Ensemble models such as Random Forest perform better than simpler models
-- Proper preprocessing has a significant impact on model performance
+- Customer tenure and contract type strongly influence churn behavior
+- Ensemble models like Random Forest perform better than simpler classifiers
+- Proper data preprocessing plays a major role in improving model results
 
 ---
 
@@ -84,11 +84,13 @@ The project was built to practice and understand a **complete machine learning w
 ---
 
 ## Project Structure
-##### implementation_code.ipynb
-##### Telco-Customer-Churn.csv
-##### README.md
+
+- `implementation_code.ipynb` – Notebook containing the complete implementation  
+- `Telco-Customer-Churn.csv` – Dataset used in the project  
+- `README.md` – Project documentation  
 
 ---
 
 ## Author
-**Shreyash More**   
+
+**Pranjal Mahale**
